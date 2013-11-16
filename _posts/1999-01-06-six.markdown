@@ -1,0 +1,8 @@
+---
+divid: transition-six
+hasimage: false 
+zindex: 0
+---
+I decided to visit the National Business Park to see whether its physical architecture revealed anything about the architecture of surveillance. In some way it served as perverse pilgrimage, a weird act of affirmation to a cult I only understood in glimpsed fragments. In order to understand a world in which one assumes she is being watched, I needed to face the apparatuses of watching--I needed to see and be seen by it in an explicit, literal way, not just as more metadata but as a corporeal creature. Searching for a face to, well, face among these lost temples of the surveillance state proved harder than I imagined. 
+
+The National Business Park is one of many properties belonging to [Corporate Office Properties Trust](http://copt.com), a publicly traded Real Estate Investment Trust (REIT) based in Columbia, Maryland. COPT traces its origins to a small Minneapolist-based REIT named Royale Investments, founded in 1988. In 1998 the company merged with Constellation Real Estate Group, a fully-owned subsidiary of Constellation Energy. This merger led to the acquisition of 1.6 million square feet of office property (including what would become the National Business Park), a new President and COO, [Randall Griffith](http://www.baltimoresun.com/business/bs-bz-interview-randall-griffin-20111119,0,4852097.story), and a dramatic shift in business priorities. 

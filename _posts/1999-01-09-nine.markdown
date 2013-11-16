@@ -1,0 +1,10 @@
+---
+divid: streetview
+hasimage: true
+imageid: pano
+image: img/screenshot.png
+zindex: 0
+---
+Before I actually went to the National Business Park, I went there remotely on Google Streetview. The tours I took myself on offered some insight into the primary tenants of the NBP and its general flatness, but several streets were out of Streetview range, and it was almost a year and a half old. As preparation, I trawled poorly designed websites for [architecture firms](http://www.gpapc.net/commerical/commercial.htm), looking for construction and tenant histories through press releases, SEC filings, and dozens of corporate websites.
+
+Partly out of curiosity, I did reach out to the National Business Park's property manager Bill Barroll to see if anyone would be available to answer questions and chat about the park's art and architecture (based on the one [blog post](http://artcfa.wordpress.com/2011/10/18/the-sculpture-garden-at-the-national-business-park/) from an [art consulting company](http://artcfa.com/artists-circle-fine-art-portfolio/art-consulting-framing-installation-clients/) that, apparently, is responsible for much of the aesthetics of the intelligence industry). I never heard from Barroll, but another COPT employee responded, asking for all questions in advance and where I planned to publish, as a board needed to decide if this was an "opportunity" they wanted to take. After I sent 4 fairly vanilla questions, several more requests were made (for another method of contact beyond my email, for a draft of whatever I wrote in advance of publication). It seemed like working through official channels might prove a greater hindrance to the work. I abandoned the correspondence. 

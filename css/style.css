@@ -1,0 +1,225 @@
+body{margin: 0; padding: 0;}
+#map{
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: 900;
+	position: fixed;
+
+}
+
+/*where the text lives*/
+
+article{
+	position: absolute;
+	margin: 0 12.5% 0; padding: 0;
+	text-align: center;
+	z-index: 99999;
+	max-height: 60%;
+	overflow: scroll;
+	width: auto;
+	border-bottom: solid white 20px;
+	}
+
+section{
+	
+
+}
+
+section p{
+	font: normal 18px Georgia, Times, serif;
+	color: black;
+	letter-spacing: .5;
+	height: auto;
+	text-align: left;
+	background-color: white;
+	opacity: 0.95;
+	top: 0;
+	width: auto;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 30px;
+
+}
+
+section h1{
+	font: normal 3em Georgia, serif;
+	color: black;
+	text-align: left;
+	background-color: white;
+	opacity: 0.95;
+	top: 0;
+	width: auto;
+	padding:20px;
+	margin: auto;
+}
+
+section h2{
+	font: normal 2em Georgia,serif;
+	color: black;
+	text-align: left;
+	background-color: white;
+	opacity: 0.95;
+	padding: 20px;
+}
+
+
+section a{
+	color: #EDA126;
+	text-decoration: none;
+}
+
+/*images*/
+.backgrounds{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	bottom: 0;
+	background-size: 100%;
+	overflow: scroll;
+	background-repeat: no-repeat;
+	bottom: 0;
+
+}
+
+/*hyperlapse*/
+
+#bg{
+	background-image: url(img/screenshot.png);
+	opacity: 1;
+	z-index: -5;
+	bottom: 0;
+}
+
+#pano {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top:0;
+	z-index: -10;
+
+}
+
+/*all things the map*/
+#map-ui{
+	position: fixed;
+	bottom: 20;
+	left:0;
+	z-index: 0;
+	background-color: #000;
+}
+
+#map-ui li a {
+    font: 10px 'Varela', Helvetica, sans-serif;
+    font-weight: 700;
+    background: #FFF;
+    color: #4B6E88;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #CCC;
+    border-bottom-width: 0;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+#map-ui a:hover {
+    background: #ddd;
+}
+
+#map-ui li{
+	list-style: none;
+	display: inline;
+}
+
+#map-ui a.active {
+    background: #aaa;
+    border-top-color: #FFF;
+    color: #000;
+}
+
+/*media queries!!*/
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+	.backgrounds{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	background-position: bottom;
+
+}
+
+
+#bg{
+	background-image: url(img/screenshot.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	opacity: 0;
+	z-index: -5;
+	bottom: 0;
+}
+
+#pano {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top:0;
+	z-index: -10;
+
+}
+
+
+section{
+	top: 0;
+	width: auto;
+	padding:10px;
+	margin: auto;
+	text-align: left;
+
+
+}
+
+
+section p{
+	font: normal 16px Georgia, Times, serif;
+	color: black;
+	letter-spacing: .5;
+	line-height: 1.3;
+	margin-bottom: 1%;
+}
+
+section h1{
+	font: normal 24px 'Varela', 'Helvetica Neue', Helvetica,sans-serif;
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+section h2{
+	font: normal 20px 'Varela', 'Helvetica Neue', Helvetica,sans-serif;
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+article{
+	position: absolute;
+	margin: 0 5% 0; padding: 0;
+	text-align: center;
+	z-index: 99999;
+	max-height: 50%;
+	overflow: scroll;
+	width: auto;
+	}
+
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){}
+@media screen and (min-width: 768px) and (max-width: 960px){}
+@media screen and (min-width: 960px){}
+

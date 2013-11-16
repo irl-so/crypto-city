@@ -1,0 +1,10 @@
+---
+divid: restricted-areas
+hasimage: true
+imageid: img-restricted-areas
+image: img/dsc_0028.jpg
+zindex: 0
+---
+Surprisingly few buildings had clear sight lines. Rambling topography and highly curated foliage meant that a direct view was almost impossible for many structures without higher elevation or getting close--and I didn't know how close I could get without drawing attention to myself. Not that it was clear how much more I'd learn from going up close beyond what I could learn from the photographs published on COPT's website. Beneath their bland exteriors lay more bland copper and drywall, security blanketed in banality. 
+
+Visiting in person, I understood why some of the NBP was not part of Street View--they were mostly restricted areas. From what I'd found in my research it seemed the higher the level of restriction at a site, the more likely the property was being used by the U.S. Government. I didn't even try to shoot pictures of the barricades and ID booth at Hercules Road, the path to a building that [according to James Bamford](cryptome.org/eyeball/nsa-nbp/nsa-nbp.htm)'s *The Shadow Factory* is rented by the NSA's Technology and Sytems Organization, where it has been [since 1996](https://www.fas.org/irp/nsa/oldind.html). Similarly, while Sentinel *Drive* was accessible, Sentinel *Way* was only accessible with proper ID and credentials. Based on the vagueness of press releases and searching for information on tenants of the Sentinel Way buildings, they appear to be mostly government. Few of these departments appear to have address information online, but the [Department of the Navy’s Center for Information Dominance](http://www.netc.navy.mil/centers/ceninfodom/ftmeade/) does appear to be in one of the Sentinel Way buildings.

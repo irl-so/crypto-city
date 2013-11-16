@@ -1,0 +1,17 @@
+---
+layout: default
+title: Architectures of Surveillance
+---
+
+<article>
+	{% for post in site.posts reversed %}
+	<section id = "{{ post.divid }}">
+	{{ post.content }}
+	</section>
+	{% endfor %}
+</article>
+{% for post in site.posts %}
+{% if post.hasimage == true %}
+   <div class="backgrounds" id="{{ post.imageid }}" style="background-image: url({{ post.image }}); z-index: {{ post.zindex }};"></div>
+  {% endif %}
+{% endfor %} 
