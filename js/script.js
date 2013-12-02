@@ -32,11 +32,11 @@ nas = L.mapbox.tileLayer('occupy.NBP_NAS');
 bldgs = new L.geoJson.ajax("js/bldgs.geojson",  {onEachFeature: popUp, style: bldgstyle});
 
 //here are the sattellite layers
-addLayer(map2002, '2002', 'sat-2002');
-addLayer(map2006, '2006', 'sat-2006');
-addLayer(map2013, '2013', 'sat-2013');
+addLayer(map2002, '2002', 'sat_2002');
+addLayer(map2006, '2006', 'sat_2006');
+addLayer(map2013, '2013', 'sat_2013');
 addLayer(bldgs, 'Building Details', 'bldgs');
-addLayer(nas, "1996 (drawing)", 'nas-1996')
+addLayer(nas, "1996 (drawing)", 'nas_1996')
 
 //this is the thing that controls all the layers, it's important
 function addLayer(layer, name, id) {
@@ -48,6 +48,17 @@ function addLayer(layer, name, id) {
     link.href = '#';
     link.innerHTML = name;
     link.id = id;
+    
+    $('article').scroll(function(){
+        if(map.hasLayer(layer)){
+        item.className = 'nav active clearfix';
+    }
+        else{
+        item.className = 'nav clearfix';
+        }
+
+    });
+
 
     item.onclick = function(e) {
         e.preventDefault();
@@ -91,7 +102,7 @@ $("#toggle").click(function(){
     $("article").slideToggle();
 });
 
-    var articleHeight = $('article').height();
+    var articleHeight = $('article').height()/2;
     var center= $(window).height()/2;
 
     var sat2002 = $('#sat-2002').offset().top;
@@ -113,23 +124,29 @@ $('article').scroll(function() {
 
     var scroll = $(this).scrollTop();
 
-    if ((scroll + articleHeight) > (sat2002 + sat2002Height )) {
+    if ((scroll - articleHeight) > (sat2002 + sat2002Height )) {
         map.addLayer(map2002);
-       } 
+ } 
     else {
         map.removeLayer(map2002);
     }
-    if ((scroll + articleHeight) > (sat2006 + sat2006Height )){
-        map.addLayer(map2006);}
+    if ((scroll - articleHeight) > (sat2006 + sat2006Height )){
+        map.addLayer(map2006);
+        }
     else{map.removeLayer(map2006);}
     
-    if ((scroll + articleHeight) > (sat2013 + sat2013Height)){
+    if ((scroll - articleHeight) > (sat2013 + sat2013Height)){
         map.addLayer(map2013);}
     else{map.removeLayer(map2013);}
 
-        if ((scroll + articleHeight) > (transition10 + transition10Height)){
-        map.addLayer(baselayer);}
-    else{map.removeLayer(baselayer);}
+        if ((scroll - articleHeight) > (transition10 + transition10Height)){
+        map.addLayer(baselayer);
+        map.removeLayer(map2013);
+        map.removeLayer(map2006);
+        map.removeLayer(map2002);}
+    else{
+        map.removeLayer(baselayer);
+        }
 
 });
 
