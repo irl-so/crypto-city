@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" charset="utf-8">
-<title>Architectures of Surveillance</title>
+<title>Pilgrimage to Cipher City</title>
 <head>
-  <script src='//api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.js'></script>
-  <link href='//api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.css' rel='stylesheet' />
+ <script type="text/javascript" src="//use.typekit.net/aky3ygx.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <script src='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.js'></script>
+  <link href='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.css' rel='stylesheet' />
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
   <script src="js/leaflet-hash.js"></script>
   <script type="text/javascript" src="js/leaflet.ajax.min.js"></script>
@@ -17,12 +19,14 @@
 
 </head>
 <body>
-
 {{ content }}
 
 <div id="map"></div>
-<div id="map-ui"><li><a href="#" id="toggle">show/hide text</a></li></div>
-
+<div id="pano" class="backgrounds"></div>
+<div id="map-nav" class="clearfix"><li id="pull" class="clearfix"><a href="#">&darr;</a></li></div>
+<div id="map-ui" class="clearfix">
+<li id="toggle" class="nav clearfix"><a href"#">show/hide text</a></li><li id="label" class="nav clearfix">map layers:</li>
+</div>
 <!-- all the hyperlapse libraries -->
 <script type="text/javascript" src="js/GSVPano.js"></script>
 <script type="text/javascript" src="js/dat.gui.min.js"></script>

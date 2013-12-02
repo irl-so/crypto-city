@@ -1,5 +1,0 @@
----
-category: pages
-divid: transition-one
----
-url(/img/01-sign.jpg)

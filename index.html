@@ -1,17 +1,23 @@
 ---
 layout: default
-title: Architectures of Surveillance
+title: Cipher Cities
 ---
 
 <article>
+	<section class="header"><h1>Cipher Cities</h1></section>
+	<section class="header"><h2>Notes from the National Business Park</h2></section>
+	
 	{% for post in site.posts reversed %}
-	<section id = "{{ post.divid }}">
-	{{ post.content }}
-	</section>
+		{% if post.hasimage == true %}
+			<section id = "{{ post.divid }}">
+			<img src="{{ post.image }}" />
+			{{ post.content }}
+			</section>
+		{% else %}
+			<section id = "{{ post.divid }}">
+			{{ post.content }}
+			</section>
+		{% endif %}
+	
 	{% endfor %}
 </article>
-{% for post in site.posts %}
-{% if post.hasimage == true %}
-   <div class="backgrounds" id="{{ post.imageid }}" style="background-image: url({{ post.image }}); z-index: {{ post.zindex }};"></div>
-  {% endif %}
-{% endfor %} 

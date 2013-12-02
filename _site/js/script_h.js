@@ -65,10 +65,6 @@ function init() {
         hyperlapse.onLoadComplete = function(e) {
         };
 
-        // window.onclick = function(e){
-        //  hyperlapse.pause();
-        // };
-
         $('article').scroll(function(){
             var offset = $(this).scrollTop();
             var scroll = $(window).scrollTop();
@@ -79,9 +75,6 @@ function init() {
             var transition10Height = $('#transition-10').height();
             
             panoOpacity = Math.max(0, (((transition10+transition10Height)-scroll)/300)-1);
-
-            console.log(offset-articleHeight);
-            console.log(streetview+streetviewHeight+articleHeight);
 
 
            if ((offset-articleHeight)/2 > streetview+streetviewHeight+articleHeight){

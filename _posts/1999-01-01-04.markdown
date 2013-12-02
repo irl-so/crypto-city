@@ -1,0 +1,6 @@
+---
+divid: sat-2006
+hasimage: false 
+zindex: 0
+---
+Between 2002 and 2006, 1,102,940 square feet of office space in 8 new buildings were added to the National Business Park. 2002 was the same year that the NSA began the notoriously expensive [Project Trailblazer](https://en.wikipedia.org/wiki/Trailblazer_Project), involving SAIC, Boeing, Computer Sciences Corporation (CSC), and Booz Allen Hamilton. In 2001, CSC and Northrop Grumman had been awarded a joint contract from the NSA to work on [Project Groundbreaker](http://www.crocodyl.org/spies_for_hire/project_groundbreaker_nsa_contract), another boondoggle that involved subcontracting to, among others, General Dynamics, BAE Systems, Titan Corp. (now L-3 Communications), CACI International, and Lockheed Martin. 

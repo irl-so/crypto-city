@@ -1,0 +1,10 @@
+---
+divid: coordinateleap-properties
+hasimage: false 
+zindex: 0
+---
+The National Business Park is one of many properties belonging to [Corporate Office Properties Trust](http://copt.com), a publicly traded Real Estate Investment Trust (REIT) based in Columbia, Maryland. COPT traces its origins to a Minneapolis REIT named Royale Investments, founded in 1988. In 1998, the company merged with Constellation Real Estate Group, a fully-owned subsidiary of Constellation Energy. This merger led to the acquisition of 1.6 million square feet of mid-Atlantic office property, a new name, and a shift in business priorities.
+
+COPT describes itself as "serving the specialized requirements of U.S. Government agencies and defense contractors engaged in defense information technology and national security-related activities."  Looking at where COPT owns properties is an easy way to identify nodes in the U.S. intelligence-industrial complex. For example, they own properties in San Antonio, Texas (a stone's throw from the National Cryptologic Center) and Colorado Springs, Colorado (just up the road from NORTHCOM). While there are, of course, other real estate companies working in this niche, COPT is seemingly the only one explicitly and almost exclusively dedicating itself to this market. 
+
+For researchers of defense contractors, NBP is a bit of a mecca--or, at least, a clever narrative device used in books and articles. Less is written about COPT. Press releases about new buildings will mention "[a new strategic tenant](http://online.wsj.com/article/PR-CO-20130903-903335.html)", nothing else. At times, COPT [claims](http://www.post-gazette.com/businessnews/2005/07/13/Property-Report-The-secret-business-of-building-spy-buildings/stories/200507130209) to not always know who its tenants are. 
