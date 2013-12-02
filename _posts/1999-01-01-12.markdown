@@ -2,7 +2,7 @@
 divid: restricted-areas
 hasimage: true
 imageid: img-restricted-areas
-image: img/dsc_0054.jpg
+image: img/DSC_0054.jpg
 zindex: 0
 ---
 It became clear why some of the NBP was not part of Street View--they were mostly restricted areas. Apparently the higher the level of restriction at a site, the more likely the tenant was the U.S. government. I didn't even try to shoot pictures of the barricades and ID booth at Hercules Road, the path to NBP-1, a building rented by the NSA's [Technology and Sytems Organization](http://cryptome.org/eyeball/nsa-nbp/nsa-nbp.htm) where it has been [since 1996](https://www.fas.org/irp/nsa/oldind.html).
