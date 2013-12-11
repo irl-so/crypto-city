@@ -6,8 +6,4 @@ image: img_/01-sign.jpg
 ---
 At the headquarters of the National Security Agency in Fort Meade, Maryland, there is a [small park](http://www.nsa.gov/about/cryptologic_heritage/vigilance_park/index.shtml) dedicated to the “silent warriors” of airborne signals intelligence. Three previously classified models of planes stand in counterpoint to Crypto City. Signs in front of the planes explain appropriate photography one is allowed to take—and illustrate the kind of photo one isn’t allowed to take. 
 
-As I looked at this image of an image I couldn’t capture, I wondered if this was why, when searching for a visual for the NSA, the media frequently uses the same photo vaguely reminiscent of the kabaa. Perhaps rather than journalistic laziness it is a matter of limited options. 
-
-<img src="img_/NSA_HQ.jpg" />
-
-In the empty Vigilance Park I considered snagging a quick shot, but I didn’t want to risk confiscation of my camera that early in the day. I hadn’t come to visit the NSA anyway—this was a detour. I’d come to visit a place far less blatantly sinister. 
+Looking at the image of an impossible image reminded me of the ubiquitous [stock photograph](https://en.wikipedia.org/wiki/File:National_Security_Agency_headquarters,_Fort_Meade,_Maryland.jpg) of the NSA, the one reminiscent of the [Kaaba](https://en.wikipedia.org/wiki/File:Mosqu%C3%A9e_Masjid_el_Haram_%C3%A0_la_Mecque.jpg) and among the few used by news outlets. The photograph’s ubiquity, and its resemblance to another opaque monument, serve as shorthand for an institution that seeks to be perceived as beyond human comprehension or accountability. 

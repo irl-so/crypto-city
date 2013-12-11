@@ -106,13 +106,14 @@ $("#toggle").click(function(){
     var center= $(window).height()/2;
 
     var sat2002 = $('#sat-2002').offset().top;
-    var sat2002Height = $('#sat-2002').height();
-
+   
     var sat2006 = $('#sat-2006').offset().top;
-    var sat2006Height = $('#sat-2006').height();
-
+   
     var sat2013 = $('#sat-2013').offset().top;
-    var sat2013Height = $('#sat-2013').height();
+    
+    var jessup = $('#coordinateleap-jessup').offset().top;
+
+    var streetview = $('#streetview').offset().top;
 
     var transition10 = $('#transition-10').offset().top;
     var transition10Height = $('#transition-10').height();
@@ -124,28 +125,34 @@ $('article').scroll(function() {
 
     var scroll = $(this).scrollTop();
 
-    if ((scroll - articleHeight) > (sat2002 + sat2002Height )) {
+    if ((scroll + center) > (sat2002)) {
         map.addLayer(map2002);
  } 
     else {
         map.removeLayer(map2002);
     }
-    if ((scroll - articleHeight) > (sat2006 + sat2006Height )){
+    if ((scroll + center) > (sat2006)){
         map.addLayer(map2006);
         }
     else{map.removeLayer(map2006);}
     
-    if ((scroll - articleHeight) > (sat2013 + sat2013Height)){
+    if ((scroll + center) > (sat2013)){
         map.addLayer(map2013);}
     else{map.removeLayer(map2013);}
 
-        if ((scroll - articleHeight) > (transition10 + transition10Height)){
-        map.addLayer(baselayer);
+    if ((scroll + center) > (jessup)){
+        map.removeLayer(map2002);
+        map.removeLayer(map2006);
+        map.setView([39.1442,-76.7770], 16);}
+    else{map.setView([39.1283, -76.7719], 15);}
+
+    if ((scroll + center) > (transition10 + transition10Height)){
         map.removeLayer(map2013);
         map.removeLayer(map2006);
-        map.removeLayer(map2002);}
+        map.removeLayer(map2002);
+        }
     else{
-        map.removeLayer(baselayer);
+      //map.removeLayer(baselayer);
         }
 
 });
