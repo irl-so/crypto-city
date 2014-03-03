@@ -48,7 +48,7 @@ section{
 
 
 section p{
-	font: normal 18px "freight-text-pro", Georgia, Times, serif;
+	font: normal 18px "adobe-caslon-pro", Georgia, Times, serif;
 	color: black;
 	line-height: 22px;
 	text-align: left;
@@ -67,7 +67,7 @@ section p.center{
 }
 
 section h1{
-	font: 5em "proxima-nova-alt", "Varela", sans-serif;
+	font: 4.5em "proxima-nova-alt", "Varela", sans-serif;
 	color: black;
 	/*text-transform: uppercase;*/
 	font-weight: 700;
@@ -234,7 +234,7 @@ section{
 }
 
 section p{
-	font: 14px"freight-text-pro", Georgia, Times, serif;
+	font: 14px"adobe-caslon-pro", Georgia, Times, serif;
 	color: black;
 	letter-spacing: .5;
 	line-height: 1.3;

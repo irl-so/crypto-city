@@ -9,20 +9,15 @@ map.scrollWheelZoom.disable();
 
 //layer with all the buildings
 var bldgstyle = {
-    "color": "#ccc",
+    "color": "#4B6E88",
     "weight": 7,
     "opacity": 0.7
 };
 
 function popUp(f,l){
-    var out = [];
-    if (f.properties){
-        for(key in f.properties){
-            out.push(key+": "+f.properties[key]);
-        }
-        l.bindPopup(out.join("<br />"));
-    }
-}
+    var popUpcontent = '<h2>'+f.properties.Name+'</h2><hr><strong>Construction Date: </strong>'+ f.properties.constructionDate +'<br><strong>Square Feet: </strong>'+ f.properties.squareFeet + '<br><strong>Tenants: </strong>'+ f.properties.Tenant ;
+    l.bindPopup(popUpcontent);
+    };
 
 baselayer = L.mapbox.tileLayer('lifewinning.map-53lvkbot');
 map2002 = L.mapbox.tileLayer('occupy.2002_md');
@@ -143,8 +138,9 @@ $('article').scroll(function() {
     if ((scroll + center) > (jessup)){
         map.removeLayer(map2002);
         map.removeLayer(map2006);
-        map.setView([39.1442,-76.7770], 16);}
-    else{map.setView([39.1283, -76.7719], 15);}
+    //     map.setView([39.1442,-76.7770], 16);}
+    // else{map.setView([39.1283, -76.7719], 15);
+    }
 
     if ((scroll + center) > (transition10 + transition10Height)){
         map.removeLayer(map2013);
@@ -158,4 +154,4 @@ $('article').scroll(function() {
 });
 
 //add hashing, for figuring out exact pan and zoom points for things
-var hash = new L.Hash(map);
+//var hash = new L.Hash(map);
