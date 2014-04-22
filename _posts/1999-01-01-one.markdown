@@ -1,0 +1,12 @@
+---
+divid: transition-one
+hasimage: true
+imageid: img-transition-one
+image: img/01-sign.jpg
+zindex: 999
+---
+#On the Outskirts of Crypto City:
+##Notes from Visiting the National Business Park
+At the main office of the National Security Agency, there is a [small park](http://www.nsa.gov/about/cryptologic_heritage/vigilance_park/index.shtml) dedicated to the “silent warriors” of airborne signals intelligence. Three previously classified models of planes and plaques with the names of fallen warriors stand in counterpoint to Crypto City. There are signs in front of the planes that explain appropriate photography one is allowed to take—and that illustrate precisely the kind of photo one isn’t allowed to take.
+
+As I looked at this image of an image I couldn’t capture, I wondered if this was why, when asked to illustrate the NSA, the media frequently uses the same stock photo that, my friend Jeff pointed out, looks kind of like the kabba. It’s not journalistic laziness, there just aren’t enough photos *out there* of the building. In the empty Vigilance Park, I considered risking it and snagging a quick shot, but my day was just beginning and I didn’t want to risk confiscation of my camera that early. I hadn’t come out to suburban Maryland to visit the NSA anyway—this was a detour. I’d come to visit a place far less blatantly sinister.
