@@ -5,7 +5,7 @@ imageid: img-transition-one
 image: img/01-sign.jpg
 zindex: 999
 ---
-#Architectures of Surveillance:
+#On the Outskirts of Crypto City:
 ##Notes from Visiting the National Business Park
 At the main office of the National Security Agency, there is a [small park](http://www.nsa.gov/about/cryptologic_heritage/vigilance_park/index.shtml) dedicated to the “silent warriors” of airborne signals intelligence. Three previously classified models of planes and plaques with the names of fallen warriors stand in counterpoint to Crypto City. There are signs in front of the planes that explain appropriate photography one is allowed to take—and that illustrate precisely the kind of photo one isn’t allowed to take.
 
